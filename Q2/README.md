@@ -1,16 +1,26 @@
-# React + Vite
+# Question 2: React Components & Hooks Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This React application demonstrates various React features, hooks, form validations, and JSON data fetching organized into 9 sub-pages using React Router.
 
-Currently, two official plugins are available:
+## Sub-Questions Implemented
+1. **SubQ1**: Function component with props rendering.
+2. **SubQ2**: Conditional rendering, list mapping, nested components, and children containment.
+3. **SubQ3**: Counter component with increment, decrement, and reset states.
+4. **SubQ4**: Functional components using `useState` and `useRef`.
+5. **SubQ5**: Real-time Digital Clock using `useState` and `useEffect`.
+6. **SubQ6**: Live form validation using manual state logic.
+7. **SubQ7**: Live form validation using `react-hook-form`.
+8. **SubQ8**: Employee table fetching data from `employees.json`.
+9. **SubQ9**: Student directory fetching data from `students.json` with search and filtering by semester, division, and gender.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React 18 & Vite
+- React Router DOM (`HashRouter`)
+- React Hook Form
+- Bootstrap 5 & Bootstrap Icons
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## How to Run
+```bash
+npm install
+npm run dev
+```

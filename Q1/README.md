@@ -1,16 +1,18 @@
-# React + Vite
+# Question 1: CDN React Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This project implements two interactive React components (`UserProfileCard` and `ProductItemCard`) built in a Vite React environment where `React` and `ReactDOM` are loaded via public CDN.
 
-Currently, two official plugins are available:
+## Features
+- **UserProfileCard**: Displays user information, statistics, and an interactive Follow/Unfollow toggle button.
+- **ProductItemCard**: Displays a product card with interactive quantity controls (+ / -) and an Add to Cart action.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React 18 & ReactDOM 18 (Externalized via UNPKG CDN)
+- Vite JS
+- Bootstrap 5 & Bootstrap Icons
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## How to Run
+```bash
+npm install
+npm run dev
+```

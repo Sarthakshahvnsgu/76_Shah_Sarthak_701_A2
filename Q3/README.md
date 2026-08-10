@@ -1,16 +1,20 @@
-# React + Vite
+# Question 3: Task Planner App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-featured To-Do application built with React, featuring task management, status filtering, search capabilities, and local storage synchronization.
 
-Currently, two official plugins are available:
+## Features
+- **Task Management**: Create, edit, complete, and delete tasks with priority levels and due dates.
+- **Filtering & Search**: Live text search and filtering by completion status (Pending/Completed) and priority (High/Medium/Low).
+- **Sorting**: Sort tasks by due date or priority level.
+- **Statistics**: Summary dashboard displaying total, pending, and completed task metrics.
+- **Persistence**: Automatically saves tasks to browser `localStorage`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React 18 & Vite
+- Bootstrap 5 & Bootstrap Icons
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## How to Run
+```bash
+npm install
+npm run dev
+```
