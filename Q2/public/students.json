@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "firstName": "Sarthak",
+    "lastName": "Shah",
+    "semester": "7",
+    "div": "A",
+    "gender": "Male",
+    "rollNo": "701"
+  },
+  {
+    "id": 2,
+    "firstName": "Aarav",
+    "lastName": "Patel",
+    "semester": "5",
+    "div": "B",
+    "gender": "Male",
+    "rollNo": "512"
+  },
+  {
+    "id": 3,
+    "firstName": "Ananya",
+    "lastName": "Iyer",
+    "semester": "7",
+    "div": "A",
+    "gender": "Female",
+    "rollNo": "702"
+  },
+  {
+    "id": 4,
+    "firstName": "Kabir",
+    "lastName": "Sharma",
+    "semester": "3",
+    "div": "C",
+    "gender": "Male",
+    "rollNo": "304"
+  },
+  {
+    "id": 5,
+    "firstName": "Diya",
+    "lastName": "Mehta",
+    "semester": "5",
+    "div": "A",
+    "gender": "Female",
+    "rollNo": "505"
+  },
+  {
+    "id": 6,
+    "firstName": "Ishaan",
+    "lastName": "Desai",
+    "semester": "7",
+    "div": "B",
+    "gender": "Male",
+    "rollNo": "718"
+  },
+  {
+    "id": 7,
+    "firstName": "Riya",
+    "lastName": "Verma",
+    "semester": "3",
+    "div": "C",
+    "gender": "Female",
+    "rollNo": "321"
+  },
+  {
+    "id": 8,
+    "firstName": "Zara",
+    "lastName": "Khan",
+    "semester": "5",
+    "div": "B",
+    "gender": "Female",
+    "rollNo": "542"
+  },
+  {
+    "id": 9,
+    "firstName": "Vihaan",
+    "lastName": "Gupta",
+    "semester": "7",
+    "div": "C",
+    "gender": "Male",
+    "rollNo": "732"
+  },
+  {
+    "id": 10,
+    "firstName": "Kiara",
+    "lastName": "Reddy",
+    "semester": "3",
+    "div": "A",
+    "gender": "Female",
+    "rollNo": "311"
+  }
+]
