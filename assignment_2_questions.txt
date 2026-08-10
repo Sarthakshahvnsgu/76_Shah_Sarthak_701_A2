@@ -1,0 +1,29 @@
+Q:1) Create 2 components using CDN approach.
+
+Q:2) Create Vite/CRA based react app, add bootstrap to it, add router to it and give links for components with following requirements:
+1) Create and display component using function component.
+2) Take a suitable case and develop 
+
+components for 
+  conditional rendering, list, nested components, children (containment)
+3) Develop counter component with increment, decrement, reset.
+4) Develop 
+
+components  using useState and useRef using function components.
+5) Develop components for digital clock using useState and useEffect.
+6) Develop 
+
+component for live form validation with manual validation.
+7) 
+
+Develop  component for live form validation with any third party validation library.
+8) 
+
+Develop  component  that fetches data from a 
+
+employees .json JSON file and display in a table.
+9) 
+
+Develop  component to fetch data from students.json and display. Add search and filtering. Search should be based on student firstname and filtering is based on semester, div, gender etc.
+
+Q:3 Develop "To Do" app.
